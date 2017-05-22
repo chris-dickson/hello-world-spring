@@ -1,0 +1,6 @@
+compile:
+  override:
+    - ./gradlew build
+general:
+  artifacts:
+    - "build/libs"
